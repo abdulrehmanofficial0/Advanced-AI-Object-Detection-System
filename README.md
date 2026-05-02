@@ -6,6 +6,8 @@ The **Advanced AI Object Detection System** is a Computer Vision based project t
 
 This system provides **real-time detection, object counting, voice alerts, and data visualization** through an interactive interface.
 
+---
+
 ### 🔹 This project includes:
 
 - Real-Time Object Detection  
@@ -42,7 +44,7 @@ This system provides **real-time detection, object counting, voice alerts, and d
 
 ## 📂 Project Structure
 
-
+```
 AI-Object-Detection-System/
 │
 ├── app.py
@@ -50,7 +52,7 @@ AI-Object-Detection-System/
 ├── auth.py
 ├── history.csv
 ├── requirements.txt
-
+```
 
 ---
 
@@ -58,9 +60,9 @@ AI-Object-Detection-System/
 
 ### 1️⃣ Install Dependencies
 
-
+```
 pip install ultralytics streamlit opencv-python pillow numpy pandas matplotlib pyttsx3
-
+```
 
 ---
 
@@ -68,9 +70,9 @@ pip install ultralytics streamlit opencv-python pillow numpy pandas matplotlib p
 
 ### Run Streamlit App
 
-
+```
 streamlit run app.py
-
+```
 
 ---
 
@@ -107,9 +109,9 @@ streamlit run app.py
 
 Detection results are stored in:
 
-
+```
 history.csv
-
+```
 
 Each record contains:
 
@@ -132,12 +134,12 @@ Each record contains:
 
 ## 📌 Example Output
 
-
+```
 Objects Detected: 5
 Person: 2
 Car: 2
 Dog: 1
-
+```
 
 ---
 
@@ -157,4 +159,6 @@ Dog: 1
 - Object Tracking System  
 - Custom Trained Models  
 - Mobile Application  
-- Advanced UI (React / Tailwind)
+- Advanced UI (React / Tailwind)  
+
+---
